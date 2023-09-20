@@ -1,0 +1,213 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\.gitignore",
+      "PackagePath": "staticwebassets\\front\\.gitignore"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\README.md",
+      "PackagePath": "staticwebassets\\front\\README.md"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\front\\build\\asset-manifest.json"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\favicon.ico",
+      "PackagePath": "staticwebassets\\front\\build\\favicon.ico"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\index.html",
+      "PackagePath": "staticwebassets\\front\\build\\index.html"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\logo192.png",
+      "PackagePath": "staticwebassets\\front\\build\\logo192.png"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\logo512.png",
+      "PackagePath": "staticwebassets\\front\\build\\logo512.png"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\manifest.json",
+      "PackagePath": "staticwebassets\\front\\build\\manifest.json"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\robots.txt",
+      "PackagePath": "staticwebassets\\front\\build\\robots.txt"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\static\\css\\main.073c9b0a.css",
+      "PackagePath": "staticwebassets\\front\\build\\static\\css\\main.073c9b0a.css"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\static\\css\\main.073c9b0a.css.map",
+      "PackagePath": "staticwebassets\\front\\build\\static\\css\\main.073c9b0a.css.map"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\static\\js\\787.71df535f.chunk.js",
+      "PackagePath": "staticwebassets\\front\\build\\static\\js\\787.71df535f.chunk.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\static\\js\\787.71df535f.chunk.js.map",
+      "PackagePath": "staticwebassets\\front\\build\\static\\js\\787.71df535f.chunk.js.map"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\static\\js\\main.c43c6945.js",
+      "PackagePath": "staticwebassets\\front\\build\\static\\js\\main.c43c6945.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\static\\js\\main.c43c6945.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\front\\build\\static\\js\\main.c43c6945.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\static\\js\\main.c43c6945.js.map",
+      "PackagePath": "staticwebassets\\front\\build\\static\\js\\main.c43c6945.js.map"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\build\\static\\media\\logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+      "PackagePath": "staticwebassets\\front\\build\\static\\media\\logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\package-lock.json",
+      "PackagePath": "staticwebassets\\front\\package-lock.json"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\package.json",
+      "PackagePath": "staticwebassets\\front\\package.json"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\public\\favicon.ico",
+      "PackagePath": "staticwebassets\\front\\public\\favicon.ico"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\public\\index.html",
+      "PackagePath": "staticwebassets\\front\\public\\index.html"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\public\\logo192.png",
+      "PackagePath": "staticwebassets\\front\\public\\logo192.png"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\public\\logo512.png",
+      "PackagePath": "staticwebassets\\front\\public\\logo512.png"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\public\\manifest.json",
+      "PackagePath": "staticwebassets\\front\\public\\manifest.json"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\public\\robots.txt",
+      "PackagePath": "staticwebassets\\front\\public\\robots.txt"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\src\\App.css",
+      "PackagePath": "staticwebassets\\front\\src\\App.css"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\src\\App.js",
+      "PackagePath": "staticwebassets\\front\\src\\App.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\src\\App.test.js",
+      "PackagePath": "staticwebassets\\front\\src\\App.test.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\src\\index.css",
+      "PackagePath": "staticwebassets\\front\\src\\index.css"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\src\\index.js",
+      "PackagePath": "staticwebassets\\front\\src\\index.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\src\\logo.svg",
+      "PackagePath": "staticwebassets\\front\\src\\logo.svg"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\src\\reportWebVitals.js",
+      "PackagePath": "staticwebassets\\front\\src\\reportWebVitals.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\front\\src\\setupTests.js",
+      "PackagePath": "staticwebassets\\front\\src\\setupTests.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\static\\css\\main.073c9b0a.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.073c9b0a.css"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\static\\css\\main.073c9b0a.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.073c9b0a.css.map"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\static\\js\\787.71df535f.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\787.71df535f.chunk.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\static\\js\\787.71df535f.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\787.71df535f.chunk.js.map"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\static\\js\\main.c43c6945.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.c43c6945.js"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\static\\js\\main.c43c6945.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.c43c6945.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\static\\js\\main.c43c6945.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.c43c6945.js.map"
+    },
+    {
+      "Id": "D:\\projects\\tennisMatch\\tennisMatchApp\\wwwroot\\static\\media\\logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+      "PackagePath": "staticwebassets\\static\\media\\logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.tennisMatchApp.props",
+      "PackagePath": "build\\tennisMatchApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.tennisMatchApp.props",
+      "PackagePath": "buildMultiTargeting\\tennisMatchApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.tennisMatchApp.props",
+      "PackagePath": "buildTransitive\\tennisMatchApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.tennisMatchApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
