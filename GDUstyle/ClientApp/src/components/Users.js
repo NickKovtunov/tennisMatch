@@ -1,30 +1,48 @@
+import { useEffect, useState} from 'react'
 import { Collapse } from 'antd';
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
-const items = [
-    {
-        key: '1',
-        label: 'This is panel header 1',
-        children: <p>{text}</p>,
-    },
-    {
-        key: '2',
-        label: 'This is panel header 2',
-        children: <p>{text}</p>,
-    },
-    {
-        key: '3',
-        label: 'This is panel header 3',
-        children: <p>{text}</p>,
-    },
-];
+import axios from 'axios'
+import { DeleteBtn } from './DeleteBtn'
 
-export function Users() {
+export function Users({ addedUser }) {
+    const [users, setUsers] = useState([])
+
+    function getUsers() {
+        axios.get('weatherforecast/GetUsers')
+            .then(response => {
+                let objects = []
+                response.data.forEach(function (item, index, array) {
+                    let object = {
+                        key: item.id,
+                        label: item.name,
+                        children: <DeleteBtn userId={item.id} deleteUserCallBack={deleteUserCallBack}></DeleteBtn>,
+                    }
+                    objects.push(object)
+                });
+                setUsers(objects)
+            })
+    }
+
+    const deleteUserCallBack = (childdata) => {
+        getUsers()
+    }
+
+    useEffect(() => {
+        getUsers()
+    }, [])
+
+    useEffect(() => {
+        getUsers()
+    }, [addedUser])
+
     const onChange = (key) => {
         console.log(key);
     };
-    return <Collapse size="large" items={items} onChange={onChange} />;
+
+    return (
+        <>
+            {users && users.length > 0 &&
+                <Collapse size="large" items={users} onChange={onChange} />
+            }
+        </>
+    )
 }
