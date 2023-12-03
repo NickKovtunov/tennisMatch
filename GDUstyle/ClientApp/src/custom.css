@@ -21,3 +21,123 @@ code {
     text-align:right;
     margin-bottom:20px;
 }
+
+.printBtn{
+    margin-right:10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle {
+    background-color: #D0D0D0;
+    width: 300mm;
+    min-height: 160mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rectangle_white {
+    background-color: #D0D0D0;
+    color: #0070BA;
+    -webkit-print-color-adjust: exact;
+}
+
+.rectangle_blue {
+    background-color: #0070BA;
+    color: white;
+    -webkit-print-color-adjust: exact;
+}
+
+.tablet_department {
+    text-align: center;
+    font-family: HeliosCondBlack;
+    font-size: 40pt;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+.tablet_post {
+    text-align: center;
+    font-family: HeliosCondBlack;
+    font-size: 40pt;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+.tablet_name {
+    text-align: center;
+    font-family: HeliosCondBlack;
+    font-size: 60pt;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+.tablet_department_blue {
+    color: #0070BA;
+    text-align: center;
+    font-family: HeliosCondBlack;
+    font-size: 40pt;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+.tablet_post_blue {
+    color: #0070BA;
+    text-align: center;
+    font-family: HeliosCondBlack;
+    font-size: 40pt;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+.tablet_name_blue {
+    color: #0070BA;
+    text-align: center;
+    font-family: HeliosCondBlack;
+    font-size: 60pt;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+.customAlert{
+    margin-bottom:20px;
+}
+
+@media print {
+    header, h1, .addBtnWrap, .ant-collapse-header, .addBtnWrap, .bookLink, .customAlert {
+        display: none !important;
+    }
+
+    .ant-collapse, .ant-collapse-item, .ant-collapse-content {
+        border: 0px !important;
+    }
+
+    .wrapper2 {
+        page-break-before: always;
+    }
+}

@@ -3,6 +3,7 @@ import { Button, Modal, Form, Input } from 'antd';
 import axios from 'axios'
 
 export function AddUser({ addUserCallBack }) {
+    const [form] = Form.useForm();
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const showModal = () => {
@@ -15,6 +16,10 @@ export function AddUser({ addUserCallBack }) {
 
     const handleCancel = () => {
         setIsModalOpen(false);
+    };
+
+    const onReset = () => {
+        form.resetFields();
     };
 
     const layout = {
@@ -33,6 +38,7 @@ export function AddUser({ addUserCallBack }) {
         axios.post('weatherforecast/AddUser', obj)
             .then(response => {
                 addUserCallBack(response)
+                onReset()
             })
     };
 
@@ -58,6 +64,7 @@ export function AddUser({ addUserCallBack }) {
                     name="nest-messages"
                     onFinish={onFinish}
                     style={{ maxWidth: 600 }}
+                    form={form}
                 >
                     <Form.Item name={['user', 'Branch']} label="Подразделение">
                         <Input.TextArea />
